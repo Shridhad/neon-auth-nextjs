@@ -1,0 +1,2 @@
+// export const AUTH_BASE_URL = "https://ep-shy-wind-w13alsm2.neonauth.eu-west-1.aws.neon.build/neondb/auth"
+export const AUTH_BASE_URL = "https://ep-empty-bonus-38599534.neonauth.localtest.me:30443/neondb/auth"
