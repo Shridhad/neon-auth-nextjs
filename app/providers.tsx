@@ -1,6 +1,7 @@
 "use client"
 
-import { AuthUIProvider } from "@daveyplate/better-auth-ui"
+// import { AuthUIProvider } from "@daveyplate/better-auth-ui"
+import { NeonAuthUIProvider } from "@neondatabase/neon-auth-ui"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import type { ReactNode } from "react"
@@ -11,7 +12,7 @@ export function Providers({ children }: { children: ReactNode }) {
     const router = useRouter()
 
     return (
-        <AuthUIProvider
+        <NeonAuthUIProvider
             authClient={authClient}
             navigate={router.push}
             replace={router.replace}
@@ -19,6 +20,8 @@ export function Providers({ children }: { children: ReactNode }) {
                 // Clear router cache (protected routes)
                 router.refresh()
             }}
+            // magicLink
+            emailOTP
             social={{
                 providers: ["google", "github"]
             }}
@@ -26,6 +29,6 @@ export function Providers({ children }: { children: ReactNode }) {
             Link={Link}
         >
             {children}
-        </AuthUIProvider>
+        </NeonAuthUIProvider>
     )
 }

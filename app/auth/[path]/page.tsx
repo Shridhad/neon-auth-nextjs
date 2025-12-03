@@ -1,5 +1,5 @@
-import { AuthView } from "@daveyplate/better-auth-ui"
-import { authViewPaths } from "@daveyplate/better-auth-ui/server"
+import { AuthView } from "@neondatabase/neon-auth-ui"
+import { authViewPaths } from "@neondatabase/neon-auth-ui"
 import Link from "next/link"
 
 export const dynamicParams = false

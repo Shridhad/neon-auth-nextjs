@@ -1,5 +1,5 @@
-import { AccountView } from "@daveyplate/better-auth-ui"
-import { accountViewPaths } from "@daveyplate/better-auth-ui/server"
+import { AccountView } from "@neondatabase/neon-auth-ui"
+import { accountViewPaths } from "@neondatabase/neon-auth-ui"
 
 export const dynamicParams = false
 

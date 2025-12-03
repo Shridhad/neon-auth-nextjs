@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "@daveyplate/better-auth-ui/css";
+@import "@neondatabase/neon-auth-ui/css";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
