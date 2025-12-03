@@ -41,7 +41,7 @@ export default function DashboardPage() {
                         Welcome back, {session.user.name || session.user.email}!
                     </h1>
                     <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-                        Here's what's happening with your account today.
+                        Here&apos;s what&apos;s happening with your account today.
                     </p>
                 </div>
 

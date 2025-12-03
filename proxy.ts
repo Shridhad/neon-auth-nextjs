@@ -6,6 +6,8 @@ export default neonAuthMiddleware({
 
 export const config = {
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|auth/*).*)",
+    "/dashboard",
+    "/account",
+    "/((?!_next/static|_next/image|favicon.ico|).*)",
   ],
 }
