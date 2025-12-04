@@ -19,9 +19,6 @@ export function Providers({ children }: { children: ReactNode }) {
                 router.refresh()
             }}
             emailOTP
-            social={{
-                providers: ["google", "github"]
-            }}
             redirectTo="/dashboard"
             Link={Link}
         >
