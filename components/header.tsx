@@ -39,6 +39,11 @@ export function Header() {
                                 Dashboard
                             </Button>
                         </Link>
+                        <Link href="/quote">
+                            <Button variant="ghost" size="sm">
+                                Quote
+                            </Button>
+                        </Link>
                     </nav>
                 )}
             </div>

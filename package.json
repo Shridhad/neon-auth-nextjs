@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@neondatabase/neon-auth-ui": "0.1.0-alpha.2",
-    "@neondatabase/neon-auth-next": "0.1.0-alpha.22",
+    "@neondatabase/neon-auth-next": "0.1.0-alpha.24",
     "@radix-ui/react-dropdown-menu": "^2.1.16",
     "@radix-ui/react-slot": "^1.2.3",
     "better-auth": "^1.4.4",

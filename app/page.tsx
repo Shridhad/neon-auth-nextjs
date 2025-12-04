@@ -47,6 +47,12 @@ export default function Home() {
           >
             View Dashboard
           </Link>
+          <Link
+            href="/quote"
+            className="flex h-12 items-center justify-center rounded-lg border border-zinc-300 bg-transparent px-8 text-base font-medium text-zinc-900 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-50 dark:hover:bg-zinc-900"
+          >
+            Quote of the Day
+          </Link>
         </div>
 
         <div className="mt-8 grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-3">
