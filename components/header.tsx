@@ -44,6 +44,11 @@ export function Header() {
                                 Quote
                             </Button>
                         </Link>
+                        <Link href="/notes">
+                            <Button variant="ghost" size="sm">
+                                Notes
+                            </Button>
+                        </Link>
                     </nav>
                 )}
             </div>

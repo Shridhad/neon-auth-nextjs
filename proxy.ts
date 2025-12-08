@@ -9,6 +9,7 @@ export const config = {
     "/dashboard",
     "/account",
     "/quote",
+    "/notes",
     "/((?!_next/static|_next/image|favicon.ico|).*)",
   ],
 }
