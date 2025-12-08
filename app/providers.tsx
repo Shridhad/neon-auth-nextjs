@@ -21,7 +21,7 @@ export function Providers({ children }: { children: ReactNode }) {
             emailOTP
             emailVerification
             social={{
-                providers: ["google", "github"]
+                providers: ["google"]
             }}
             redirectTo="/dashboard"
             Link={Link}
