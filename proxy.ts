@@ -8,7 +8,6 @@ export const config = {
   matcher: [
     "/dashboard",
     "/account",
-    "/quote",
     "/notes",
     "/((?!_next/static|_next/image|favicon.ico|).*)",
   ],
