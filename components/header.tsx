@@ -1,7 +1,7 @@
 "use client"
 
 // import { UserButton } from "@daveyplate/better-auth-ui"
-import { UserButton } from "@neondatabase/neon-auth-ui"
+import { UserButton } from "@neondatabase/auth/react/ui"
 import Link from "next/link"
 
 import { authClient } from "@/lib/auth-client"

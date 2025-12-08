@@ -1,6 +1,6 @@
 "use client"
 
-import { NeonAuthUIProvider } from "@neondatabase/neon-auth-ui"
+import { NeonAuthUIProvider } from "@neondatabase/auth/react/ui"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import type { ReactNode } from "react"
@@ -19,11 +19,15 @@ export function Providers({ children }: { children: ReactNode }) {
                 router.refresh()
             }}
             emailOTP
+            emailVerification
             social={{
                 providers: ["google", "github"]
             }}
             redirectTo="/dashboard"
             Link={Link}
+            organization={{
+                
+            }}
         >
             {children}
         </NeonAuthUIProvider>

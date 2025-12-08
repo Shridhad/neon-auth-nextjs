@@ -1,6 +1,4 @@
-import { toNextJsHandler } from "@neondatabase/neon-auth-next"
+import { authApiHandler } from "@neondatabase/auth/next"
 
-export const { GET, POST } = toNextJsHandler(
-  process.env.NEON_AUTH_BASE_URL!
-)
+export const { GET, POST } = authApiHandler()
 
