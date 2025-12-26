@@ -22,7 +22,7 @@ npm install @neondatabase/auth
 # or
 pnpm add @neondatabase/auth
 # or
-yarn add @neondatabase/auth
+bun add @neondatabase/auth
 ```
 
 ### 2. Set Environment Variable
