@@ -3,6 +3,7 @@
 A Next.js demo application showcasing authentication with **Neon Auth** (`@neondatabase/auth`). This app demonstrates how to integrate Neon's authentication system with a modern Next.js 15+ application, including features like email OTP, social login (Google), organizations, and session management.
 
 - testing vercel integration
+- testing vercel branch
 
 ## Features
 
