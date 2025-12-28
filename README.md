@@ -11,6 +11,8 @@ A Next.js demo application showcasing authentication with **Neon Auth** (`@neond
 - ⚡ **React Server Components** - Access session data in RSC
 - 🌙 **Dark Mode Support** - Built-in theme support
 
+- Vercel Branching Test
+
 ## Setup Guide
 
 Follow these steps to set up `@neondatabase/auth/next` in your Next.js project:
